@@ -7,6 +7,9 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+# Large answer key files
+data/answer_key/*.db
+data/answer_key/*.csv
 
 # Virtual environments
 venv/

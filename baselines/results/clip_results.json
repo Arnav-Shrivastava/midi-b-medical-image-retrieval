@@ -1,0 +1,8 @@
+{
+  "system": "CLIP ViT-B/32",
+  "mAP@10": 3.621028261711185,
+  "mAP@100": 18.401102680303733,
+  "latency_ms_per_query": 3.23,
+  "n_images": 21770,
+  "n_queries": 205
+}

@@ -1,0 +1,17 @@
+{
+  "locked_baselines": [
+    {
+      "system": "TrOCR+BM25",
+      "mAP@10": 0.731618660472319,
+      "mAP@100": 1.339015497777633,
+      "latency_ms": 13.17
+    },
+    {
+      "system": "CLIP ViT-B/32",
+      "mAP@10": 3.621028261711185,
+      "mAP@100": 18.401102680303733,
+      "latency_ms": 3.23
+    }
+  ],
+  "note": "CP2 locked baselines - all contributions must beat these numbers"
+}

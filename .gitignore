@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Large model/data files
+baselines/results/clip_embeddings.npy
+baselines/results/trocr_texts.json
+baselines/results/localization_trocr_texts.json
+baselines/results/craft_trocr_texts.json
+baselines/results/clip_img_ids.json
+CRAFT-pytorch/
+baselines/models/
+
+# Dataset — never push raw images
+data/processed/
+data/raw/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp
+temp.py
+cuda_checker.py

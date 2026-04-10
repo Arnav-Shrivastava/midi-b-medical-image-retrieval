@@ -1,0 +1,1748 @@
+{
+  "MIDI_1_1_122": {
+    "patient_id": "1011144680",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_016": {
+    "patient_id": "1014584441",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 4,
+    "matched_jpg_count": 4
+  },
+  "MIDI_1_1_002": {
+    "patient_id": "105230877",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_123": {
+    "patient_id": "1055270895",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_017": {
+    "patient_id": "1068175956",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 74,
+    "matched_jpg_count": 74
+  },
+  "MIDI_1_1_124": {
+    "patient_id": "1104142010",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 11,
+    "matched_jpg_count": 11
+  },
+  "MIDI_1_1_125": {
+    "patient_id": "1127648406",
+    "modalities": [
+      "MR",
+      "SR"
+    ],
+    "db_image_count": 50,
+    "matched_jpg_count": 49
+  },
+  "MIDI_1_1_126": {
+    "patient_id": "1132133087",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_018": {
+    "patient_id": "1163484890",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_127": {
+    "patient_id": "1215638042",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_128": {
+    "patient_id": "1218138370",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 148,
+    "matched_jpg_count": 148
+  },
+  "MIDI_1_1_019": {
+    "patient_id": "1233914996",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 94,
+    "matched_jpg_count": 94
+  },
+  "MIDI_1_1_129": {
+    "patient_id": "1273299863",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_003": {
+    "patient_id": "129671781",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_020": {
+    "patient_id": "1326414678",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_130": {
+    "patient_id": "1373652568",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 70,
+    "matched_jpg_count": 70
+  },
+  "MIDI_1_1_131": {
+    "patient_id": "1486453758",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_021": {
+    "patient_id": "1507439060",
+    "modalities": [
+      "MR",
+      "SR"
+    ],
+    "db_image_count": 11,
+    "matched_jpg_count": 10
+  },
+  "MIDI_1_1_132": {
+    "patient_id": "1523933739",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 77,
+    "matched_jpg_count": 77
+  },
+  "MIDI_1_1_133": {
+    "patient_id": "1534262385",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_110": {
+    "patient_id": "154824530",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_022": {
+    "patient_id": "1769850960",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_023": {
+    "patient_id": "1775645901",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_024": {
+    "patient_id": "1788000852",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 64,
+    "matched_jpg_count": 64
+  },
+  "MIDI_1_1_025": {
+    "patient_id": "1814209803",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_026": {
+    "patient_id": "1814567196",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_134": {
+    "patient_id": "1818953307",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_027": {
+    "patient_id": "1836048050",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 26,
+    "matched_jpg_count": 26
+  },
+  "MIDI_1_1_028": {
+    "patient_id": "1867354909",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_029": {
+    "patient_id": "1901193853",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_135": {
+    "patient_id": "1905214696",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 66,
+    "matched_jpg_count": 66
+  },
+  "MIDI_1_1_030": {
+    "patient_id": "2004456760",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 376,
+    "matched_jpg_count": 376
+  },
+  "MIDI_1_1_111": {
+    "patient_id": "201034069",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_031": {
+    "patient_id": "2051580196",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_004": {
+    "patient_id": "205332995",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 40,
+    "matched_jpg_count": 40
+  },
+  "MIDI_1_1_136": {
+    "patient_id": "2145665651",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_032": {
+    "patient_id": "2149950167",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_033": {
+    "patient_id": "2201738276",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 18,
+    "matched_jpg_count": 18
+  },
+  "MIDI_1_1_137": {
+    "patient_id": "2212520662",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 85,
+    "matched_jpg_count": 85
+  },
+  "MIDI_1_1_138": {
+    "patient_id": "2361703026",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_112": {
+    "patient_id": "250822918",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_139": {
+    "patient_id": "2522288856",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 594,
+    "matched_jpg_count": 594
+  },
+  "MIDI_1_1_140": {
+    "patient_id": "2548095243",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_034": {
+    "patient_id": "2560712405",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_035": {
+    "patient_id": "2579727309",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 306,
+    "matched_jpg_count": 306
+  },
+  "MIDI_1_1_036": {
+    "patient_id": "2591519538",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 172,
+    "matched_jpg_count": 172
+  },
+  "MIDI_1_1_113": {
+    "patient_id": "260845065",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 182,
+    "matched_jpg_count": 182
+  },
+  "MIDI_1_1_037": {
+    "patient_id": "2663440963",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 32,
+    "matched_jpg_count": 32
+  },
+  "MIDI_1_1_038": {
+    "patient_id": "2675888487",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 47,
+    "matched_jpg_count": 47
+  },
+  "MIDI_1_1_039": {
+    "patient_id": "2709483244",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 3,
+    "matched_jpg_count": 3
+  },
+  "MIDI_1_1_040": {
+    "patient_id": "2750002994",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 251,
+    "matched_jpg_count": 251
+  },
+  "MIDI_1_1_041": {
+    "patient_id": "2851429013",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_042": {
+    "patient_id": "2877520250",
+    "modalities": [
+      "CT",
+      "PT"
+    ],
+    "db_image_count": 1645,
+    "matched_jpg_count": 1645
+  },
+  "MIDI_1_1_043": {
+    "patient_id": "2910051875",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 182,
+    "matched_jpg_count": 182
+  },
+  "MIDI_1_1_044": {
+    "patient_id": "2935389385",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_141": {
+    "patient_id": "2951928526",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_142": {
+    "patient_id": "3018664561",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 44,
+    "matched_jpg_count": 44
+  },
+  "MIDI_1_1_143": {
+    "patient_id": "3020165573",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_144": {
+    "patient_id": "3031860897",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_145": {
+    "patient_id": "3045254435",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 3,
+    "matched_jpg_count": 3
+  },
+  "MIDI_1_1_146": {
+    "patient_id": "3056777156",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_005": {
+    "patient_id": "313822874",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 182,
+    "matched_jpg_count": 182
+  },
+  "MIDI_1_1_001": {
+    "patient_id": "31780971",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 2070,
+    "matched_jpg_count": 2070
+  },
+  "MIDI_1_1_045": {
+    "patient_id": "3179022274",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_006": {
+    "patient_id": "333877207",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_147": {
+    "patient_id": "3363075481",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 131,
+    "matched_jpg_count": 131
+  },
+  "MIDI_1_1_046": {
+    "patient_id": "3391724851",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_148": {
+    "patient_id": "3470831496",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 245,
+    "matched_jpg_count": 245
+  },
+  "MIDI_1_1_149": {
+    "patient_id": "3508502208",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_150": {
+    "patient_id": "3530809090",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_047": {
+    "patient_id": "3536064967",
+    "modalities": [
+      "CT",
+      "PT"
+    ],
+    "db_image_count": 1645,
+    "matched_jpg_count": 1645
+  },
+  "MIDI_1_1_007": {
+    "patient_id": "356377258",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_114": {
+    "patient_id": "359554021",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 83,
+    "matched_jpg_count": 83
+  },
+  "MIDI_1_1_151": {
+    "patient_id": "3615823051",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 3,
+    "matched_jpg_count": 3
+  },
+  "MIDI_1_1_152": {
+    "patient_id": "3624605750",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 91,
+    "matched_jpg_count": 91
+  },
+  "MIDI_1_1_048": {
+    "patient_id": "3650041944",
+    "modalities": [
+      "SR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 0
+  },
+  "MIDI_1_1_049": {
+    "patient_id": "3772823713",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 100,
+    "matched_jpg_count": 100
+  },
+  "MIDI_1_1_050": {
+    "patient_id": "3853547166",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_153": {
+    "patient_id": "3870970630",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 80,
+    "matched_jpg_count": 80
+  },
+  "MIDI_1_1_154": {
+    "patient_id": "3950585851",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 70,
+    "matched_jpg_count": 70
+  },
+  "MIDI_1_1_155": {
+    "patient_id": "4072075156",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 100,
+    "matched_jpg_count": 100
+  },
+  "MIDI_1_1_156": {
+    "patient_id": "4107422692",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_051": {
+    "patient_id": "4129302192",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 83,
+    "matched_jpg_count": 83
+  },
+  "MIDI_1_1_052": {
+    "patient_id": "4229412574",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_053": {
+    "patient_id": "4274822170",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 138,
+    "matched_jpg_count": 138
+  },
+  "MIDI_1_1_157": {
+    "patient_id": "4312559682",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 118,
+    "matched_jpg_count": 118
+  },
+  "MIDI_1_1_158": {
+    "patient_id": "4383555268",
+    "modalities": [
+      "MR",
+      "SR"
+    ],
+    "db_image_count": 106,
+    "matched_jpg_count": 105
+  },
+  "MIDI_1_1_054": {
+    "patient_id": "4392345175",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 12,
+    "matched_jpg_count": 12
+  },
+  "MIDI_1_1_008": {
+    "patient_id": "441491658",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 85,
+    "matched_jpg_count": 85
+  },
+  "MIDI_1_1_159": {
+    "patient_id": "4418571350",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 135,
+    "matched_jpg_count": 135
+  },
+  "MIDI_1_1_115": {
+    "patient_id": "443459694",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_160": {
+    "patient_id": "4449800138",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 36,
+    "matched_jpg_count": 36
+  },
+  "MIDI_1_1_055": {
+    "patient_id": "4458771935",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_009": {
+    "patient_id": "446351014",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 84,
+    "matched_jpg_count": 84
+  },
+  "MIDI_1_1_056": {
+    "patient_id": "4468117705",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 3,
+    "matched_jpg_count": 3
+  },
+  "MIDI_1_1_161": {
+    "patient_id": "4510570140",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_162": {
+    "patient_id": "4616546820",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_057": {
+    "patient_id": "4634988728",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 218,
+    "matched_jpg_count": 218
+  },
+  "MIDI_1_1_058": {
+    "patient_id": "4698327005",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 91,
+    "matched_jpg_count": 91
+  },
+  "MIDI_1_1_163": {
+    "patient_id": "4725271378",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 143,
+    "matched_jpg_count": 129
+  },
+  "MIDI_1_1_164": {
+    "patient_id": "4733274020",
+    "modalities": [
+      "MR",
+      "SR"
+    ],
+    "db_image_count": 11,
+    "matched_jpg_count": 10
+  },
+  "MIDI_1_1_116": {
+    "patient_id": "473575962",
+    "modalities": [
+      "SR"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 0
+  },
+  "MIDI_1_1_059": {
+    "patient_id": "4856387147",
+    "modalities": [
+      "SR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 0
+  },
+  "MIDI_1_1_060": {
+    "patient_id": "4953814140",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 224,
+    "matched_jpg_count": 224
+  },
+  "MIDI_1_1_061": {
+    "patient_id": "4982706561",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_165": {
+    "patient_id": "5018664729",
+    "modalities": [
+      "CT",
+      "PT"
+    ],
+    "db_image_count": 1680,
+    "matched_jpg_count": 1680
+  },
+  "MIDI_1_1_166": {
+    "patient_id": "5041742269",
+    "modalities": [
+      "SR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 0
+  },
+  "MIDI_1_1_167": {
+    "patient_id": "5132877979",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 166,
+    "matched_jpg_count": 166
+  },
+  "MIDI_1_1_062": {
+    "patient_id": "5155749005",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_063": {
+    "patient_id": "5162769321",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 68,
+    "matched_jpg_count": 68
+  },
+  "MIDI_1_1_168": {
+    "patient_id": "5198475474",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_064": {
+    "patient_id": "5220588395",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_010": {
+    "patient_id": "527545790",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_065": {
+    "patient_id": "5337186859",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_169": {
+    "patient_id": "5454430957",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_066": {
+    "patient_id": "5471122351",
+    "modalities": [
+      "CT",
+      "SR"
+    ],
+    "db_image_count": 75,
+    "matched_jpg_count": 74
+  },
+  "MIDI_1_1_067": {
+    "patient_id": "5496874289",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_170": {
+    "patient_id": "5524324675",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 15,
+    "matched_jpg_count": 15
+  },
+  "MIDI_1_1_117": {
+    "patient_id": "558180499",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_068": {
+    "patient_id": "5606770735",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_069": {
+    "patient_id": "5686956486",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_070": {
+    "patient_id": "5726024907",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 93,
+    "matched_jpg_count": 93
+  },
+  "MIDI_1_1_171": {
+    "patient_id": "5812991644",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_172": {
+    "patient_id": "5830064601",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 83,
+    "matched_jpg_count": 83
+  },
+  "MIDI_1_1_173": {
+    "patient_id": "5841549447",
+    "modalities": [
+      "SR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 0
+  },
+  "MIDI_1_1_011": {
+    "patient_id": "584796839",
+    "modalities": [
+      "MR",
+      "SR"
+    ],
+    "db_image_count": 62,
+    "matched_jpg_count": 61
+  },
+  "MIDI_1_1_071": {
+    "patient_id": "5864436320",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_174": {
+    "patient_id": "5878505398",
+    "modalities": [
+      "CT",
+      "PT"
+    ],
+    "db_image_count": 140,
+    "matched_jpg_count": 140
+  },
+  "MIDI_1_1_072": {
+    "patient_id": "5966041966",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_073": {
+    "patient_id": "5987603999",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_175": {
+    "patient_id": "6002779936",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_176": {
+    "patient_id": "6208874732",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_177": {
+    "patient_id": "6231869648",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 34,
+    "matched_jpg_count": 34
+  },
+  "MIDI_1_1_074": {
+    "patient_id": "6254172776",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 52,
+    "matched_jpg_count": 52
+  },
+  "MIDI_1_1_178": {
+    "patient_id": "6272158686",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_075": {
+    "patient_id": "6321379955",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_179": {
+    "patient_id": "6329484506",
+    "modalities": [
+      "CT",
+      "PT"
+    ],
+    "db_image_count": 48,
+    "matched_jpg_count": 48
+  },
+  "MIDI_1_1_180": {
+    "patient_id": "6336095155",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 64,
+    "matched_jpg_count": 64
+  },
+  "MIDI_1_1_181": {
+    "patient_id": "6458520973",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 29,
+    "matched_jpg_count": 29
+  },
+  "MIDI_1_1_182": {
+    "patient_id": "6582546036",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_076": {
+    "patient_id": "6599044229",
+    "modalities": [
+      "CT",
+      "PT"
+    ],
+    "db_image_count": 70,
+    "matched_jpg_count": 70
+  },
+  "MIDI_1_1_109": {
+    "patient_id": "66359456",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_183": {
+    "patient_id": "6687479260",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_184": {
+    "patient_id": "6736708662",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 141,
+    "matched_jpg_count": 141
+  },
+  "MIDI_1_1_185": {
+    "patient_id": "6764361014",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 188,
+    "matched_jpg_count": 188
+  },
+  "MIDI_1_1_012": {
+    "patient_id": "679458347",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 60,
+    "matched_jpg_count": 60
+  },
+  "MIDI_1_1_186": {
+    "patient_id": "6845996122",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_187": {
+    "patient_id": "6874046147",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_077": {
+    "patient_id": "6903015891",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_078": {
+    "patient_id": "7038913684",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 19,
+    "matched_jpg_count": 19
+  },
+  "MIDI_1_1_079": {
+    "patient_id": "7039250929",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_080": {
+    "patient_id": "7050648106",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 50,
+    "matched_jpg_count": 50
+  },
+  "MIDI_1_1_188": {
+    "patient_id": "7083914783",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 135,
+    "matched_jpg_count": 135
+  },
+  "MIDI_1_1_081": {
+    "patient_id": "7213422281",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 21,
+    "matched_jpg_count": 21
+  },
+  "MIDI_1_1_189": {
+    "patient_id": "7359772291",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_082": {
+    "patient_id": "7462431292",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_083": {
+    "patient_id": "7486171221",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_084": {
+    "patient_id": "7488819025",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 60,
+    "matched_jpg_count": 60
+  },
+  "MIDI_1_1_190": {
+    "patient_id": "7516817726",
+    "modalities": [
+      "MG",
+      "SR"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_118": {
+    "patient_id": "751685205",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_085": {
+    "patient_id": "7565111465",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 47,
+    "matched_jpg_count": 47
+  },
+  "MIDI_1_1_086": {
+    "patient_id": "7634803795",
+    "modalities": [
+      "SR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 0
+  },
+  "MIDI_1_1_087": {
+    "patient_id": "7645489810",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_013": {
+    "patient_id": "769097090",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 142,
+    "matched_jpg_count": 142
+  },
+  "MIDI_1_1_191": {
+    "patient_id": "7703741920",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 94,
+    "matched_jpg_count": 94
+  },
+  "MIDI_1_1_119": {
+    "patient_id": "772400170",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_192": {
+    "patient_id": "7732944454",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_088": {
+    "patient_id": "7776283815",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_089": {
+    "patient_id": "7916584577",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_090": {
+    "patient_id": "8028590523",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_091": {
+    "patient_id": "8044369145",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_193": {
+    "patient_id": "8098395564",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 4,
+    "matched_jpg_count": 4
+  },
+  "MIDI_1_1_092": {
+    "patient_id": "8169308869",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 19,
+    "matched_jpg_count": 19
+  },
+  "MIDI_1_1_194": {
+    "patient_id": "8172202354",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 135,
+    "matched_jpg_count": 135
+  },
+  "MIDI_1_1_195": {
+    "patient_id": "8193134951",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 94,
+    "matched_jpg_count": 94
+  },
+  "MIDI_1_1_120": {
+    "patient_id": "820337941",
+    "modalities": [
+      "SR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 0
+  },
+  "MIDI_1_1_014": {
+    "patient_id": "820463148",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 132,
+    "matched_jpg_count": 132
+  },
+  "MIDI_1_1_196": {
+    "patient_id": "8242053726",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_197": {
+    "patient_id": "8294506441",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 12,
+    "matched_jpg_count": 12
+  },
+  "MIDI_1_1_093": {
+    "patient_id": "8311931848",
+    "modalities": [
+      "SR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 0
+  },
+  "MIDI_1_1_198": {
+    "patient_id": "8328199410",
+    "modalities": [
+      "SR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 0
+  },
+  "MIDI_1_1_094": {
+    "patient_id": "8371727310",
+    "modalities": [
+      "CT",
+      "PT"
+    ],
+    "db_image_count": 4230,
+    "matched_jpg_count": 4230
+  },
+  "MIDI_1_1_199": {
+    "patient_id": "8376456284",
+    "modalities": [
+      "SR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 0
+  },
+  "MIDI_1_1_095": {
+    "patient_id": "8392663604",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 13,
+    "matched_jpg_count": 13
+  },
+  "MIDI_1_1_121": {
+    "patient_id": "842603258",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 400,
+    "matched_jpg_count": 400
+  },
+  "MIDI_1_1_096": {
+    "patient_id": "8519663240",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 117,
+    "matched_jpg_count": 117
+  },
+  "MIDI_1_1_097": {
+    "patient_id": "8571931193",
+    "modalities": [
+      "SR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 0
+  },
+  "MIDI_1_1_200": {
+    "patient_id": "8599071039",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 32,
+    "matched_jpg_count": 32
+  },
+  "MIDI_1_1_098": {
+    "patient_id": "8617589698",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_099": {
+    "patient_id": "8697164365",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 2,
+    "matched_jpg_count": 2
+  },
+  "MIDI_1_1_201": {
+    "patient_id": "8706153752",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 60,
+    "matched_jpg_count": 60
+  },
+  "MIDI_1_1_202": {
+    "patient_id": "8739114778",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 24,
+    "matched_jpg_count": 24
+  },
+  "MIDI_1_1_203": {
+    "patient_id": "8779142337",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 180,
+    "matched_jpg_count": 180
+  },
+  "MIDI_1_1_204": {
+    "patient_id": "8787849915",
+    "modalities": [
+      "CT",
+      "PT"
+    ],
+    "db_image_count": 2116,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_205": {
+    "patient_id": "8801296254",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_206": {
+    "patient_id": "8810956335",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 69,
+    "matched_jpg_count": 69
+  },
+  "MIDI_1_1_100": {
+    "patient_id": "8837771956",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_101": {
+    "patient_id": "8914399577",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 88,
+    "matched_jpg_count": 88
+  },
+  "MIDI_1_1_015": {
+    "patient_id": "895380020",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 36,
+    "matched_jpg_count": 36
+  },
+  "MIDI_1_1_102": {
+    "patient_id": "9174621182",
+    "modalities": [
+      "PT"
+    ],
+    "db_image_count": 83,
+    "matched_jpg_count": 83
+  },
+  "MIDI_1_1_103": {
+    "patient_id": "9216972731",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_207": {
+    "patient_id": "9256614630",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 448,
+    "matched_jpg_count": 448
+  },
+  "MIDI_1_1_208": {
+    "patient_id": "9290999913",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 12,
+    "matched_jpg_count": 12
+  },
+  "MIDI_1_1_104": {
+    "patient_id": "9326209805",
+    "modalities": [
+      "MR",
+      "SR"
+    ],
+    "db_image_count": 85,
+    "matched_jpg_count": 84
+  },
+  "MIDI_1_1_209": {
+    "patient_id": "9335248761",
+    "modalities": [
+      "MR",
+      "SR"
+    ],
+    "db_image_count": 30,
+    "matched_jpg_count": 29
+  },
+  "MIDI_1_1_210": {
+    "patient_id": "9417387615",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_105": {
+    "patient_id": "9473050187",
+    "modalities": [
+      "MR",
+      "SR"
+    ],
+    "db_image_count": 28,
+    "matched_jpg_count": 27
+  },
+  "MIDI_1_1_211": {
+    "patient_id": "9508377210",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 4,
+    "matched_jpg_count": 4
+  },
+  "MIDI_1_1_212": {
+    "patient_id": "9543916163",
+    "modalities": [
+      "DX"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_106": {
+    "patient_id": "9621313839",
+    "modalities": [
+      "CT"
+    ],
+    "db_image_count": 561,
+    "matched_jpg_count": 561
+  },
+  "MIDI_1_1_107": {
+    "patient_id": "9666537982",
+    "modalities": [
+      "MG"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_213": {
+    "patient_id": "9690126946",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 19,
+    "matched_jpg_count": 19
+  },
+  "MIDI_1_1_108": {
+    "patient_id": "9849971856",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 110,
+    "matched_jpg_count": 110
+  },
+  "MIDI_1_1_214": {
+    "patient_id": "9918044206",
+    "modalities": [
+      "MR"
+    ],
+    "db_image_count": 60,
+    "matched_jpg_count": 60
+  },
+  "MIDI_1_1_215": {
+    "patient_id": "9951851216",
+    "modalities": [
+      "US"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  },
+  "MIDI_1_1_216": {
+    "patient_id": "9979084005",
+    "modalities": [
+      "CR"
+    ],
+    "db_image_count": 1,
+    "matched_jpg_count": 1
+  }
+}

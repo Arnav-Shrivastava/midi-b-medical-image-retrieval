@@ -1,0 +1,8 @@
+{
+  "system": "C1a+C1b+C2 fusion",
+  "mAP@10": 0.5945698799845145,
+  "mAP@100": 0.5576268869457883,
+  "alpha": 0.2,
+  "beta": 0.8,
+  "note": "gamma is data-driven per query from C2 confidence"
+}

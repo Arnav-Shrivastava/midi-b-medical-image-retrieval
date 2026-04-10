@@ -1,0 +1,8 @@
+{
+  "system": "TrOCR+BM25",
+  "mAP@10": 0.731618660472319,
+  "mAP@100": 1.339015497777633,
+  "latency_ms_per_query": 13.17,
+  "n_images": 21770,
+  "n_queries": 205
+}

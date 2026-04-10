@@ -1,0 +1,9 @@
+{
+  "system": "CRAFT+TrOCR+BM25",
+  "mAP@10": 0.10970467157052521,
+  "mAP@100": 0.8409992908346426,
+  "latency_ms_per_query": 5.37,
+  "n_images": 21770,
+  "n_queries": 205,
+  "detection_method": "CRAFT"
+}

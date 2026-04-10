@@ -1,0 +1,217 @@
+# MIDI-B Medical Image Retrieval System
+
+> Research project for CVIP 2026 — SRM Institute of Science and Technology  
+> Team: Arnav · Kunal · Anukool · Hemish
+
+---
+
+## Overview
+
+This repository implements a lightweight medical image retrieval system evaluated on the **MIDI-B benchmark** — a dataset of DICOM-exported medical images where all metadata has been stripped, leaving pixel content and burned-in text annotations as the only queryable signal.
+
+State-of-the-art tools fail on this domain:
+- **CLIP** (ViT-B/32) achieves mAP@10 of **3.62** — embeddings cluster poorly across modalities
+- **TrOCR + BM25** achieves mAP@10 of **0.73** — no medical vocabulary, fails on degraded text
+- **CRAFT + TrOCR + BM25** achieves mAP@10 of **0.11** — localization itself fails on degraded images
+
+We address these failure modes with three novel lightweight contributions:
+
+| Contribution | Description | Owner |
+|---|---|---|
+| **C1a** | HOG+LBP spatial pyramid descriptor — no GPU, no pretrained weights | Anukool |
+| **C1b** | MobileNetV3-Small fine-tuned on MIDI-B — learned invariance to degradation | Anukool |
+| **C2** | Domain-adapted CRNN trained on synthetic degraded medical text corpus | Hemish |
+| **Fusion** | Confidence-weighted fusion of C1a + C1b + C2 | Arnav + Kunal |
+
+---
+
+## Dataset
+
+**MIDI-B Validation Set** from the Cancer Imaging Archive (TCIA)  
+- 21,770 images across modalities: MG, US, CT, MR, PT, DX, SR, CR  
+- 205 valid queries (216 total, 11 excluded with empty ground truth)  
+- License: CC BY 4.0  
+
+Download: https://www.cancerimagingarchive.net/collection/midi-b/
+
+---
+
+## Repository Structure
+
+```
+medical image retrieval system/
+│
+├── eval/
+│   ├── map_harness.py          # Shared mAP@10 and mAP@100 evaluation harness
+│   └── test_harness.py         # 8 unit tests — run before any experiment
+│
+├── baselines/
+│   ├── run_clip.py             # CLIP ViT-B/32 cosine retrieval baseline
+│   ├── run_trocr_bm25.py       # TrOCR + BM25 full-image text retrieval baseline
+│   ├── run_craft_trocr.py      # CRAFT localization + TrOCR + BM25 baseline
+│   └── results/
+│       ├── clip_results.json           # mAP@10=3.6210, mAP@100=18.4011
+│       ├── trocr_bm25_results.json     # mAP@10=0.7316, mAP@100=1.3390
+│       ├── craft_trocr_results.json    # mAP@10=0.1097, mAP@100=0.8410
+│       └── baseline_summary.json      # locked CP2 numbers
+│
+├── fusion/
+│   ├── fuse.py                 # Three-way confidence-weighted fusion system
+│   ├── make_dummy_scores.py    # Test fusion with dummy data
+│   └── inputs/                 # c1a_scores, c1b_scores, c2_scores, c2_confidence
+│
+├── corpus/
+│   ├── generate_stub.py        # Generates 5k synthetic degraded medical text patches
+│   ├── stub_pairs.json         # Text labels for each patch
+│   └── stub_images/            # 5,000 synthetic JPEG patches for C2 training
+│
+├── data_utils/
+│   ├── dicom_to_jpg.py         # DICOM to JPG conversion pipeline
+│   ├── parse_ground_truth.py   # Parses MIDI-B answer keys to ground_truth.json
+│   ├── answer_key_reader.py
+│   ├── UID_mapping_reader.py
+│   └── validation_reader.py
+│
+├── results/                    # Final ablation table and figures (populated in Wk 9)
+│
+└── data/
+    └── answer_key/
+        └── ground_truth.json   # 216 queries → relevant image paths
+```
+
+---
+
+## Baseline Results (locked — CP2)
+
+| System | mAP@10 | mAP@100 | Latency | Hardware |
+|---|---|---|---|---|
+| CRAFT + TrOCR + BM25 | 0.1097 | 0.8410 | 5.37 ms | CPU |
+| TrOCR + BM25 | 0.7316 | 1.3390 | 13.17 ms | GPU (inference) |
+| CLIP ViT-B/32 | 3.6210 | 18.4011 | 3.23 ms | GPU (inference) |
+
+All results computed on 205 queries using the shared `eval/map_harness.py`.
+
+---
+
+## Setup
+
+**Requirements:** Python 3.11, CUDA-capable GPU recommended
+
+**Step 1 — install PyTorch with CUDA:**
+```bash
+pip install torch==2.6.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+```
+
+**Step 2 — install remaining dependencies:**
+```bash
+pip install "numpy<2" transformers pillow tqdm rank-bm25 opencv-python pandas
+```
+
+**Step 3 — verify harness works:**
+```bash
+python eval/test_harness.py
+# Expected: All 8 tests passed
+```
+
+---
+
+## Running Baselines
+
+**CLIP baseline** (~10 min on GPU, embeddings cached after first run):
+```bash
+python baselines/run_clip.py
+```
+
+**TrOCR + BM25 baseline** (~20 min on GPU, OCR cached after first run):
+```bash
+python baselines/run_trocr_bm25.py
+```
+
+**CRAFT + TrOCR + BM25 baseline:**
+```bash
+# Clone CRAFT first
+git clone https://github.com/clovaai/CRAFT-pytorch.git
+python baselines/run_craft_trocr.py
+```
+
+---
+
+## Evaluation Harness
+
+All systems are evaluated using the shared harness in `eval/map_harness.py`. **No local variants are permitted** — all numbers in the paper are produced by this exact file.
+
+```python
+from eval.map_harness import evaluate
+
+# all_retrieved: { query_id: [ranked list of image paths] }
+# ground_truth:  { query_id: [list of relevant image paths] }
+results = evaluate(all_retrieved, ground_truth, system_name="My System")
+# prints mAP@10 and mAP@100
+```
+
+---
+
+## Generating Synthetic Corpus Stub
+
+For C2 (CRNN) training — generates 5,000 synthetic degraded medical text patches:
+```bash
+python corpus/generate_stub.py
+# Output: corpus/stub_pairs.json + corpus/stub_images/
+```
+
+---
+
+## Score File Format
+
+When C1a, C1b, and C2 are complete, provide scores in this format for fusion:
+
+```json
+{
+  "MIDI_1_1_122": {
+    "data/processed/jpg/patient_id/.../1-1.jpg": 0.91,
+    "data/processed/jpg/patient_id/.../1-2.jpg": 0.73
+  }
+}
+```
+
+C2 confidence file format:
+```json
+{
+  "MIDI_1_1_122": 0.87,
+  "MIDI_1_1_016": 0.23
+}
+```
+
+---
+
+## Team & Timeline
+
+| Member | Task | Weeks |
+|---|---|---|
+| Arnav + Kunal | Eval harness, SOTA baselines, fusion system, §1 §2 §6 | 1–12 |
+| Anukool | C1a (HOG+LBP), C1b (MobileNetV3), §3 | 1–9 |
+| Hemish | C2 (CRNN), synthetic corpus, §4 | 1–9 |
+
+**Checkpoints:**
+- CP1 (Wk 3): harness validated, GT labels confirmed, corpus stub ready ✅
+- CP2 (Wk 6): SOTA baselines locked ✅
+- CP2b (Wk 8): C1a+C1b fused numbers from Anukool
+- CP3 (Wk 9): full fusion complete, ablation table done
+- Final (Wk 11): full paper draft circulated
+
+---
+
+## License
+
+Research use only. Dataset: CC BY 4.0 (TCIA MIDI-B).
+
+---
+
+## References
+
+- MIDI-B Dataset: Cancer Imaging Archive (TCIA)
+- CLIP: Radford et al., 2021
+- TrOCR: Li et al., 2021
+- CRAFT: Baek et al., 2019
+- MobileNetV3: Howard et al., 2019
+- BM25: Robertson & Zaragoza, 2009

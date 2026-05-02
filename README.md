@@ -144,6 +144,19 @@ All results computed on 205 queries using the shared `eval/map_harness.py`.
 
 ---
 
+## Final Results (Wk 9 — CP3)
+
+| System | mAP@10 | mAP@100 | Latency | Memory | Hardware |
+|---|---|---|---|---|---|
+| C2 CRNN OCR | 0.4957 | 0.4561 | 6.02 ms | 55.53 MB | Edge/CPU |
+| C1a EfficientNetB0 | 0.7310 | 0.6732 | - | - | CPU |
+| C1b MobileNetV3 | 0.7438 | 0.6947 | 0.03 ms | 12.47 MB | Edge/CPU |
+| **C1a + C1b + C2 Fusion** | **0.7844** | **0.7206** | - | - | CPU |
+
+*Note: Final fusion achieves a significant improvement over all baselines and standalone components.*
+
+---
+
 ## Setup
 
 **Requirements:** Python 3.11, CUDA-capable GPU recommended
@@ -246,8 +259,8 @@ C2 confidence file format:
 **Checkpoints:**
 - CP1 (Wk 3): harness validated, GT labels confirmed, corpus stub ready ✅
 - CP2 (Wk 6): SOTA baselines locked ✅
-- CP2b (Wk 8): C1a+C1b fused numbers from Anukool
-- CP3 (Wk 9): full fusion complete, ablation table done
+- CP2b (Wk 8): C1a+C1b fused numbers from Anukool ✅
+- CP3 (Wk 9): full fusion complete, ablation table done ✅
 - Final (Wk 11): full paper draft circulated
 
 ---

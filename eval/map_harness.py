@@ -2,8 +2,11 @@
 import os
 
 def normalize(path):
-    """Extract just the filename from a full or relative path."""
-    return os.path.basename(path)
+    """Extract a unique relative path to prevent filename collisions."""
+    path = path.replace("\\", "/")
+    if "data/processed/jpg/" in path:
+        return path.split("data/processed/jpg/")[-1]
+    return path
 
 def average_precision_at_k(retrieved_ids, relevant_ids, k):
     if not relevant_ids:

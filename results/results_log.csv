@@ -1,0 +1,5 @@
+date,module,mAP@10,mAP@100,notes
+2026-05-03,C1a_EfficientNetB0,0.7310,0.6732,standalone
+2026-05-03,C1b_MobileNetV3,0.7438,0.6947,standalone
+2026-05-03,C2_CRNN,0.4957,0.4561,standalone
+2026-05-03,C1a+C1b+C2_fusion,0.7844,0.7206,"best result, alpha=0.5 beta=0.5"

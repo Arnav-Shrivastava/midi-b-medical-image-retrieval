@@ -39,7 +39,7 @@ def test_multi_query():
 
 def test_normalize():
     full = r"C:\Users\arnav\Desktop\medical image retrieval system\data\processed\jpg\1011144680\abc\1-1.jpg"
-    assert normalize(full) == "1-1.jpg"
+    assert normalize(full) == "1011144680/abc/1-1.jpg"
     print("PASS: path normalization works")
 
 def test_real_gt_format():
